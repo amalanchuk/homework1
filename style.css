@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+.content{
+    display: inline-block;
+    width: 48%;
+    height: 480px;
+    
+}
+
+.content img{
+    width: 470px;
+}
+.content p{
+    width: 470px;
+    font-size: 18px;
+}
+
+body{
+    display: block;
+    margin-left: 180px;
+    position: absolute;
+}
+.menu{
+    list-style: none;
+}
+.menu li{
+    display: inline;
+    margin-left: 10%;
+}
+.menu li a{
+    text-decoration: none;
+    color: grey;
+    font-family: 'Playfair Display', serif;
+    margin: 0 auto;
+    width: 400px;
+}
+.menu li a:hover{
+    color: aqua;
+}
